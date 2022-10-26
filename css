@@ -38,6 +38,7 @@ header{
 }
 .navbar{
 	display: flex;
+	
 }
 .navbar a{
 	color: var(--second-color);
@@ -47,6 +48,7 @@ header{
 	margin: 0 2px;
 	border-radius: 0.5rem;
 	transition: all .40s ease;
+	background: black;
 }
 .navbar a:hover{
 	background: var(---main-color);
@@ -165,8 +167,6 @@ header.sticky{
 }
 .services-content{
 	display: grid;
-	
-	
 	align-items:center;
 	text-align: center;
 	gap: 1rem;
@@ -232,6 +232,11 @@ header.sticky{
 	font-size:16px;
 	font-weight: 500;
 	letter-spacing: 1px;
+}
+.row h6:hover{
+	color: white;
+}
+
 }
 .row-icon i{
 	font-size: 21px;
@@ -373,7 +378,6 @@ footer{
 		--h1-font: 4.2rem;
 		--h2-font:2.9rem;
 		--p-font: 1rem;
-
 	}
 	section{
 		padding: 70px 3% 60px;
@@ -391,7 +395,6 @@ footer{
 		grid-template-columns: 1fr;
 	}
 }
-
 @media (max-width: 830px){
 	#menu-icon{
 		display:block;
@@ -408,7 +411,6 @@ footer{
 		text-align: left;
 		transition: all .40s ease;
 	}
-
 	.navbar a{
 		display:block;
 		padding: 1rem;
