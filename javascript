@@ -1,11 +1,13 @@
 const header=document.querySelector("header");
 
 window.addEventListener ("scroll", function() {
-	header.classList.toggle ("sicky", window.scrollY >0 );
+	header.classList.toggle ("stick", window.scrollY >0 );
 });
 
 let menu = document.querySelector("#menu-icon");
 let navbar= document.querySelector(".navbar");
+
+
 
 menu.onclick = () => {
 	menu.classList.toggle("bx-x");
@@ -27,3 +29,5 @@ sr.reveal(".home-text",{delay:190, origin:"bottom"})
 
 sr.reveal(".about, .services, .portfolio, .contact",{delay:200, origin:"bottom"}
 )
+
+
